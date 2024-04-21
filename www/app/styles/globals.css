@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Geist";
+  src: url("/fonts/geist.woff2") format("woff2");
+}
+
+* {
+  @apply m-0 p-0 box-border;
+}
+
+body {
+  @apply text-white bg-[#212123] font-body;
+}
